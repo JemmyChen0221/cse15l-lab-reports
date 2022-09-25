@@ -10,10 +10,10 @@
 2. AM
 3. JEMMY
 
-'Hello World' is different than this
+`Hello World` is different than this
 
-'''
+```
 # this is code
-print'hello'
-print'world'
-'''
+print`hello`
+print`world`
+```
