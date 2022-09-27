@@ -2,9 +2,9 @@
 ## Second Headline
 ---
 - **CSE 15L**
-- [Link](https://jemmychen0221.github.io/cse15l-lab-reports/Try.html)
-- ![Image](https://static.wikia.nocookie.net/wii/images/8/89/Pikachu.jpg/revision/latest/scale-to-width-down/250?cb=20140209205851)
-> That is a Pikachu
+- [To My Lab Report 1](https://jemmychen0221.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+- ![Image](Capture.PNG)
+> That is my desktop
 
 1. I
 2. AM
