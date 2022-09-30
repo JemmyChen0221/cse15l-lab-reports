@@ -51,7 +51,7 @@ Then it will ask you for your password, **it is normal that your typing did not 
 
 If everything goes right, you should see this page.
 
-![login](login.png)
+![login](Login.png)
 
 **CONGRATULATION!!!** you just connect yourself into the server.
 
