@@ -11,8 +11,8 @@
 
 ---
 
-## Installing VScode
-Visit [Visual Stuido Code](https://code.visualstudio.com/) website and follow the insturction in the website to download the corresponding VScode on your computer.
+## 1. Installing VScode
+Visit Visual Stuido Code(https://code.visualstudio.com/) website and follow the insturction in the website to download the corresponding VScode on your computer.
 
 ![VSCode Website](vscode.png)
 
@@ -24,7 +24,7 @@ After you seeing this page, it means you have succefully downloaded the VScode o
 
 ---
 
-## Remotely Connecting
+## 2. Remotely Connecting
 Now time to connect to the server. 
 
 First of all, look up you account in [this](https://sdacs.ucsd.edu/~icc/index.php) website. You'll need to set up your password throught the resetting the password. There are help information in [[TUTORIAL] How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
@@ -48,6 +48,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 And of course, we have to say `yes` to finish setting up. 
 
 Then it will ask you for your password, **it is normal that your typing did not reflect on the screen, just press enter when you are done typing**, if you are having trouble logging in, refer back to [[TUTORIAL] How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
+If you tuped your password wrong/mistyped your password, dont worry! The same thing will pops up and ask your password again!
 
 If everything goes right, you should see this page.
 
@@ -57,7 +58,7 @@ If everything goes right, you should see this page.
 
 ---
 
-## Trying Some Commands
+## 3. Trying Some Commands
 
 after connecting to the server, you can try these commands by simply typing into the terminal. Try them out yourself and see if you can understand what these commands do. 
 
@@ -69,6 +70,17 @@ mkdir
 cp
 cat
 ```
+Hope you found out what some of them does!
+- The `cd` let you move between directories
+- The `ls` shows what files is in the current directory.
+- The `pwd` prints your current directory.
+- The `mkdir` let users to create new directory.
+- The `cp` stands for copy, so it copy files into a new file.
+- The `cat` allow users to view the contents of the file.  
+
+![logout](TrySomething.png)
+In this picture, I move to the folder on my desktop called "CSE 15L". Remember when there is space between your folder, you need to use quotaion mark around it. 
+
 
 You can also run these commands in your own computer as well, simply type in `exit` in the terminal and you will be log out. 
 
@@ -76,7 +88,7 @@ You can also run these commands in your own computer as well, simply type in `ex
 
 ---
 
-## Moving Files with `scp`
+## 4. Moving Files with `scp`
 Now we are trying to upload a file you have and run it on the server. But before we doing this, we need a file to upload. 
 
 So let's create a file called `WhereAmI.java` in your computer and paste the following code into the file. 
@@ -117,7 +129,7 @@ you should see something similar to the following.
 
 ---
 
-## Setting an SSH Key
+## 5. Setting an SSH Key
 Now, I know you are probably feeling frustrating about typing your password over and over again, especially when you can't see it. Here is something they may help. You can **SKIP** typing the password!
 
 Remember to follow carefully, cause it will be tricky. First, type the following into the termianl **without** connecting to the server.
