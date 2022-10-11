@@ -158,7 +158,7 @@ Now after typing in the password and finish uploading, if everything goes right,
 
 ---
 
-Optimizing Remote Running
+## 6. Optimizing Remote Running
 
 You can save a lot of time by learning this technique, we can combine multiple command into to one to make it clean and save more time. 
 ```
