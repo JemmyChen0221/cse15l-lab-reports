@@ -1,4 +1,4 @@
-# Lab Report 1 - Servers and Bugs
+# Lab Report 2 - Servers and Bugs
 ## Part 1 - Simplest Search Engine from week 2
 *My Code*
 ```
