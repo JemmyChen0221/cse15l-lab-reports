@@ -140,3 +140,67 @@ Finally, outside of the loop, we will be checking if the `output` is still blank
 - output = "LemonTea"
 
 Now, we will return this to the users, and this is what you see on the screen. 
+
+---
+
+## Part 2 : Bugs
+**File 1** : ArrayTests.java
+
+I am focusing on the `Reversed` method in the ArrayTest.java file. 
+
+- Failure-inducing input (the code of the test), is `{1,2,3}`
+
+![](ReversedInput.png)
+
+- The symptom is that it returns an array with all 0, when it should returns an array that reversed the orignial array. So the expected output should be `{3,2,1}`.
+
+![](ReversedWrong.png)
+- The bug was that the code is making changes on the input array itself but not the new array it created. In order to fix it, simply change the left side of the equal sign to be the array that just creted, and assign the old array to the new array in reverse index. 
+
+![](ArrayChanged.png)
+- So the bug was that the method was changing the input array instead of newly created array, when we create a new array, it will have value 0 in it, so when you assign the array with all 0s to the input array, and eventually return that, you will get an array with all 0s in it.
+
+![](ArrayOld.png)
+
+---
+
+**File 2** : ListExamples.java
+
+I am focusing on the `filter` method in the ListExamples.java file. 
+In this file, the class `ListExamples` uses the interface `StringChecker` which will return a boolean if the input string mathes the "rule". So I created a very simply checker shown below. 
+```
+interface StringChecker { 
+  boolean checkString(String s);
+}
+
+class ContainsA implements StringChecker{
+
+  @Override
+  public boolean checkString(String s) {
+    if(s.contains("a")){
+      return true;
+    }else{
+      return false;
+    }
+  }
+  
+}
+```
+
+So this will help explain why my input should get certain expected output.
+
+- Failure-inducing input (the code of the test), is a new ArrayList input, which is euqal to `{"apple", "banna", "lemon", "pear"}"`
+
+![](ListInput.png)
+
+- The symptom is that it returns an array with all the element that is being filtered, but the order is wrong, it is adding apple element in reverse order. The expected output should be `{"apple", "banna", "pear"}`, but the actual output is `{"pear", "banna", "apple"}`.
+
+![](ListOutput.png)
+
+- The bug is that it is adding all the new element to the first element, so it is making a order reversed. 
+
+![](FixedList.png)
+
+- The bug was that the line `result.add(0,s)` is adding all the element in the front of the list, in other word, it is prepending the element. This will cause the list to be in reversed order as shown in the symptom. 
+
+![](OriginalList.png)
