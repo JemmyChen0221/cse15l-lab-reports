@@ -18,6 +18,7 @@ This takes you to the 74th line in the file, and put your cursor in the front of
 
 `8w`
 ![](8w.png)
+
 This will take you 8 words foward, so your cursor will be at the end of 8th word.
 
 `d3w`
