@@ -40,6 +40,7 @@ Now simply typing in the command line argument, since `args[0]` is our port numb
 
 `<ESC>:wq <Enter>`
 ![](wq.png)
+
 Now, all we need to do is quit insert mode by pressing `<ESC>` and type in `:wq` and press `<Enter>` to save all the edits we did with vim. 
 
 ---
