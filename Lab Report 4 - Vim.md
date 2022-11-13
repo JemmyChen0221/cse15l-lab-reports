@@ -1,4 +1,4 @@
-# Lab Report 3 - Vim
+# Lab Report 4 - Vim
 ## Part 1 - Vim with less than 30 keys pressed
 
 *Task: Changing the main method to take a command-line argument*
