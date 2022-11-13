@@ -17,6 +17,7 @@ Total Key Pressed : 4 + 2 + 3 + 1 + 11 + 5 = 26
 This takes you to the 74th line in the file, and put your cursor in the front of the line.
 
 `8w`
+
 ![](8w.png)
 
 This will take you 8 words foward, so your cursor will be at the end of 8th word.
