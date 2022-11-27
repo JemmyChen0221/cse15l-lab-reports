@@ -1,4 +1,4 @@
-# Lab Report 4 - List Grader
+# Lab Report 5 - List Grader
 ## Part 1 - Grade.sh & Three Screenshots
 
 ```
